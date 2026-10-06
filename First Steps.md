@@ -7,8 +7,11 @@ The first thing I did is nmap the whole IP range.
 
 We have 5 machines on the network:
 - sevenkingdoms.local
-  - 10.2.10.10 - Kingslanding
+  - Kingslanding - 10.2.10.10
   - north
-    - Castleblack
-    - Winterfell
-    - 
+    - Winterfell - 10.2.10.11
+    - Castleblack - 10.2.10.12
+     
+- essos.local
+  - Meereen - 10.2.10.13
+  - Braavos - 10.2.10.14
