@@ -19,7 +19,7 @@ The first thing I did is nmap the whole IP range.
 
 ---
 
-On the Castleblack machine, we can see an smb auth with the `Guest` user.
+In the Castleblack machine, we can see an smb auth with the `Guest` user.
 
 ![[images/2026-10-06_11-27-58.png]]
 We get two user from the last share remark: `jon.snow` and `samwell.tarly`. 
@@ -30,3 +30,4 @@ There is also a 80 port with IIS running. And there is an upload page. I think w
 
 ![[images/2026-10-06_14-05-16.png]]
 
+In the Winterfell machine we can enumarate SMB shares with the 
