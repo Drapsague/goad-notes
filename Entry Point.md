@@ -9,7 +9,7 @@ In the `NETLOGON` and `SYSVOL` shares we can get powershell scripts with credent
 > **danger** Danger
 > Will need to test this secret in base64 later !
 
-Before re-scan everything with the new credz, I'm going to try to connect to LDAP with the `samwell.tarly` account.
+Before re-scanning everything with the new credz, I'm going to try to connect to LDAP with the `samwell.tarly` account.
 
 ```bash
   nxc ldap winterfell -u 'samwell.tarly' -p 'Heartsbane' \
