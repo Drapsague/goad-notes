@@ -1,6 +1,3 @@
----
-
----
 
 The first thing I did is nmap the whole IP range.
 
@@ -20,6 +17,7 @@ The first thing I did is nmap the whole IP range.
   - Meereen - 10.2.10.13
   - Braavos - 10.2.10.14
 
+---
 
 On the Castleblack machine, we can see an smb auth with the Guest user.
 
