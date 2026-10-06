@@ -9,5 +9,7 @@ In the `NETLOGON` and `SYSVOL` shares we can get powershell scripts with credent
 Before re-scan everything with the new credz, I'm going to try to connect to LDAP with the `samwell.tarly` account.
 
 ```bash
-nxc smb winterfell -u '' -p '' -d "north.sevenkingdoms.local" --shares
+  nxc ldap winterfell -u 'samwell.tarly' -p 'Heartsbane' \
+    -d "north.sevenkingdoms.local" --users
 ```
+  ![[images/2026-10-06_15-50-16.png]]
