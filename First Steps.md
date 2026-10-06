@@ -35,10 +35,10 @@ In the Winterfell machine we can enumarate SMB shares with null auth.
 ![[images/2026-10-06_14-34-12.png]]
 I tried to enumerate RIDs with the Castleblack machine but it was not relevant.
 
-And here it is blocked with null credentials and Guest.
+And here it is blocked with anonymate and Guest.
 ![[images/2026-10-06_14-48-42.png]]
 
-The `--users` is a better option than `--rid-brute` 
+The `--users` is a better option than `--rid-brute` when the anonymate auth is enabled. 
 
 ```bash
   nxc smb winterfell -u '' -p '' \
