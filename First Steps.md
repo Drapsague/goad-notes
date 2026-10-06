@@ -25,4 +25,7 @@ On the Castleblack machine, we can see an smb auth with the `Guest` user.
 > **note** Note
 > Nothing was found in the shares.
 
-There is also a 80 port with IIS running. And there is an upload page.
+There is also a 80 port with IIS running. And there is an upload page. I think we can maybe get a shell with this but we will get to it later.
+
+![[2026-10-06_14-05-16.png]]
+
