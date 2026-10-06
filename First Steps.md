@@ -35,6 +35,11 @@ In the Winterfell machine we can enumarate SMB shares with null auth.
 ![[images/2026-10-06_14-34-12.png]]
 I tried to enumerate RIDs with the Castleblack machine but it was not relevant.
 
+And here it is blocked with null credentials and Guest.
+![[images/2026-10-06_14-48-42.png]]
+
+The `--users` is a better option than `--rid-brute` 
+
 ```bash
   nxc smb winterfell -u '' -p '' \
     -d "north.sevenkingdoms.local" --users
