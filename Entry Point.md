@@ -13,3 +13,7 @@ Before re-scan everything with the new credz, I'm going to try to connect to LDA
     -d "north.sevenkingdoms.local" --users
 ```
   ![[images/2026-10-06_15-50-16.png]]
+Nothing new here, but sometimes we can get more users from LDAP than from SMB RIDs.
+
+
+
