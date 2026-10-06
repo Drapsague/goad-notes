@@ -34,12 +34,12 @@ There is also a 80 port with IIS running. And there is an upload page. I think w
 > I tried to enumerate RIDs with the Castleblack machine but it was not relevant.
 
 
-In the Winterfell machine we can enumarate SMB shares with anonymate auth.
+In the Winterfell machine we can enumarate SMB shares with anonymous auth.
 
 ![[images/2026-10-06_14-34-12.png]]
-And here it is blocked with anonymate and Guest.
+And here it is blocked with anonymous and Guest.
 ![[images/2026-10-06_14-48-42.png]]
-The `--users` is a better option than `--rid-brute` when the anonymate auth is enabled. 
+The `--users` is a better option than `--rid-brute` when the anonymous auth is enabled. 
 
 ```bash
   nxc smb winterfell -u '' -p '' \
