@@ -17,3 +17,13 @@ The first thing I did is nmap the whole IP range.
   - Meereen - 10.2.10.13
   - Braavos - 10.2.10.14
 
+
+On the Castleblack machine, we can see an smb auth with the Guest user.
+
+![[2026-10-06_11-27-58.png]]
+<!--
+Nothing was found in the shares.
+-->
+
+> **danger** T
+> dksjhfkshf
