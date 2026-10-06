@@ -36,5 +36,9 @@ In the Winterfell machine we can enumarate SMB shares with null auth.
 I tried to enumerate RIDs with the Castleblack machine but it was not relevant.
 
 ```bash
-  nxc winterfell 
+  nxc smb winterfell -u '' -p '' \
+    -d "north.sevenkingdoms.local" --users
 ```
+
+
+
