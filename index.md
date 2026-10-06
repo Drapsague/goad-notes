@@ -1,2 +1,12 @@
 # GOAD Write Up
 
+
+
+
+
+
+
+
+
+
+
