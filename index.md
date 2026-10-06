@@ -1,3 +1,2 @@
 # GOAD Write Up
 
-/
