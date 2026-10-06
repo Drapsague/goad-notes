@@ -47,4 +47,8 @@ The `--users` is a better option than `--rid-brute` when the anonymate auth is e
 ```
  
 ![[images/2026-10-06_14-53-54.png]]
-Now we get a lot of users, we don't know if there are more. We see a password for `samwell.tarly` 
+Now we get a lot of users, we don't know if there are more. We see a password for `samwell.tarly`.
+
+> **success** Success
+> With the password we can now try LDAP, WinRM or SMB.
+
