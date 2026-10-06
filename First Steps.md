@@ -33,7 +33,7 @@ There is also a 80 port with IIS running. And there is an upload page. I think w
 In the Winterfell machine we can enumarate SMB shares with null auth.
 
 ![[images/2026-10-06_14-34-12.png]]
-I tried to enumerate SIDs with the Castleblack machine but it was not relevant.
+I tried to enumerate RIDs with the Castleblack machine but it was not relevant.
 
 ```bash
   nxc winterfell 
