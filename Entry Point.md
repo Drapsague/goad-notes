@@ -18,5 +18,6 @@ Before re-scanning everything with the new credz, I'm going to try to connect to
   ![[images/2026-10-06_15-50-16.png]]
 Nothing new here, but sometimes we can get more users from LDAP than from SMB RIDs.
 
-
+  
+  ![[images/2026-10-07_10-55-04.png]]
 
