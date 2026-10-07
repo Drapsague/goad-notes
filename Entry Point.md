@@ -26,7 +26,8 @@ I tried LDAP enumeration with the `jeor.mormont` account, we get a lot of stuff.
       -D 'jeor.mormont@north.sevenkingdoms.local' -w '_L0ngCl@w_'
 ```  
 
-
+> **note** Note
+> Nothing more was found in the LDAP dictionnary.
 
 We can also try kerberoasting on `samwell.tarly` or `jeor.mormont` account. We get the same result from both.
 
