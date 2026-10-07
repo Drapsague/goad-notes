@@ -18,6 +18,13 @@ Before re-scanning everything with the new credz, I'm going to try to connect to
   ![[images/2026-10-06_15-50-16.png]]
 Nothing new here, but sometimes we can get more users from LDAP than from SMB RIDs.
 
-  
-  ![[images/2026-10-07_10-55-04.png]]
+I tried LDAP enumeration with the `jeor.mormont` account but we get nothing.
+
+```bash
+  ldapsearch -H ldap://winterfell -x -b \
+      'dc=winterfell,dc=north,dc=sevenkingdoms,dc=local' -t all \
+      -D 'jeor.mormont@north.sevenkingdoms.local' -w '_L0ngCl@w_'
+```  
+
+![[images/2026-10-07_10-55-04.png]]
 
