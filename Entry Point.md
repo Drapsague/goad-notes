@@ -27,3 +27,4 @@ I tried LDAP enumeration with the `jeor.mormont` account, we get a lot of stuff.
 ```  
 
 
+We can also try kerberoasting on 
