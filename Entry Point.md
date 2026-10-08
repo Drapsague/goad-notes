@@ -68,7 +68,8 @@ To be precise we have `Constrained Delegation Privileges`.
   ![[images/2026-10-08_15-12-15.png]]
 So we want to ask the KDC for a ST as the local admin of the machine and then use the ST to authenticate as the local admin.
   ![[images/2026-10-08_15-11-43.png]]
-We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is the account we want to take over.
+We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is the account we want to take over. And we are using the `CIFS/winterfell` SPN to do it.
+  ![[images/2026-10-08_17-02-37.png]]
 
 ```bash
   impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
