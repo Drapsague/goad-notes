@@ -47,9 +47,11 @@ We can dump the LDAP and import it in BloodHound, we can see a `AllowToDelegate`
       -gc 'winterfell.north.sevenkingdoms.local' -c all
 ```
   ![[images/2026-10-08_08-51-41.png]]
-
 This allows us to impersonate certain Service Account, such as the Administrator and get the Service Tickets.
 
+```bash
+  
+```
 
 
   
