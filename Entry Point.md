@@ -66,5 +66,5 @@ Ok so what are trying to do here ?
 
 To be precise we have `Constrained Delegation Privileges`.
   ![[images/2026-10-08_15-12-15.png]]
-
+So we want to ask the KDC 
   ![[images/2026-10-08_15-11-43.png]]
