@@ -55,7 +55,7 @@ This allows us to impersonate certain Service Account, such as the Administrator
   'north.sevenkingdoms.local/jon.snow:iknownothing' 
 ```
 
-And with this we retreive the ST of the Administrator.
+And with this we retrieive the ST of the Administrator.
 
 
   
