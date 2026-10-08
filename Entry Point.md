@@ -55,7 +55,10 @@ This allows us to impersonate certain Service Account, such as the Administrator
   'north.sevenkingdoms.local/jon.snow:iknownothing' 
 ```
 
-And with this we retrieive the ST of the Administrator.
+And with this we retrieve the ST of the Administrator.
+
+> **danger** Danger
+> I'm having trouble getting the ST to work to dump secrets or anything. It has to be with the account I want to impersonate. I need further research and understanding to succeed.
 
 
   
