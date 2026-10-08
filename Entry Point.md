@@ -40,6 +40,11 @@ And we successfully cracked the `jon.snow` account.
 
 ![[images/2026-10-07_15-04-33.png]]
 We can dump the LDAP and import it in BloodHound, we can see a `AllowToDelegate` from `jon.snow` to the `winterfell` machine.
+
+```bash
+  bloodhound-python -d 'north.sevenkingdoms.local' \
+    -u 'jon.snow' -p 'iknownothing' -gc ' -c all
+```
   ![[images/2026-10-08_08-51-41.png]]
 
   
