@@ -79,7 +79,17 @@ We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is
       -k -dc-ip 10.2.10.11
 ```
 
+We are prompted with the `jon.snow` password and successfully get the ST for the `WINTERFELL$` account.
 
 ![[images/2026-10-08_17-05-39.png]]
+Now let's try to dump the secrets !
+
+
+
+
+
+
+
+
 
 
