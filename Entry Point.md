@@ -98,6 +98,13 @@ impacket-secretdump    north.sevenkingdoms.local/WINTERFELL$@winterfell.north.se
 
 It didn't work. I have the same weird error.
 
+Ok I think we need to re-start.
+
+```bash
+  impacket-findDelegation \
+      "north.sevenkingdoms.local"/"jon.snow":"iknownothing"
+```
+  ![[images/2026-10-08_18-28-13.png]]
 
 
 
