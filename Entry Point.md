@@ -43,8 +43,13 @@ We can dump the LDAP and import it in BloodHound, we can see a `AllowToDelegate`
 
 ```bash
   bloodhound-python -d 'north.sevenkingdoms.local' \
-    -u 'jon.snow' -p 'iknownothing' -gc ' -c all
+    -u 'jon.snow' -p 'iknownothing' \
+      -gc 'winterfell.north.sevenkingdoms.local' -c all
 ```
   ![[images/2026-10-08_08-51-41.png]]
+
+This allows us to impersonate certain Service Account, such as the Administrator and get the Service Tickets.
+
+
 
   
