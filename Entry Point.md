@@ -36,6 +36,6 @@ We can also try kerberoasting on `samwell.tarly` or `jeor.mormont` account. We g
       'north.sevenkingdoms.local/jeor.mormont:_L0ngCl@w_'
 ```
   ![[images/2026-10-07_14-36-17.png]]
-And we successfuly cracked the `jon.snow` account.
+And we successfully cracked the `jon.snow` account.
 
 ![[images/2026-10-07_15-04-33.png]]
