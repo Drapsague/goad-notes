@@ -39,4 +39,7 @@ We can also try kerberoasting on `samwell.tarly` or `jeor.mormont` account. We g
 And we successfully cracked the `jon.snow` account.
 
 ![[images/2026-10-07_15-04-33.png]]
-We can dump the LDAP and import it in BloodHound, we can see a `AllowToDelegate` from `jon.snow` to 
+We can dump the LDAP and import it in BloodHound, we can see a `AllowToDelegate` from `jon.snow` to the `winterfell` machine.
+  ![[images/2026-10-08_08-51-41.png]]
+
+  
