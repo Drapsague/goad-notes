@@ -61,4 +61,10 @@ And with this we retrieve the ST of the Administrator.
 > I'm having trouble getting the ST to work to dump secrets or anything. It has to be with the account I want to impersonate. I need further research and understanding to succeed.
 
 
-  
+Ok so what are trying to do here ? 
+- We have am account that has `AllowToDelegate` ACE on the `WINTERFELL` machine aka the DC.
+
+To be precise we have `Constrained Delegation Privileges`.
+  ![[images/2026-10-08_15-12-15.png]]
+
+  ![[images/2026-10-08_15-11-43.png]]
