@@ -105,7 +105,7 @@ Ok I think we need to re-start.
       "north.sevenkingdoms.local"/"jon.snow":"iknownothing"
 ```
   ![[images/2026-10-08_18-28-13.png]]
-
+Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to 
 
 
 
