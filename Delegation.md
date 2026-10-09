@@ -124,3 +124,4 @@ Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST
 
   ![[images/2026-10-09_14-46-29.png]]
   
+I give up.
