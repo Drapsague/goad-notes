@@ -115,6 +115,12 @@ Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST
       -dc-ip 10.2.10.11
 ```
 
+
+
+
 # TLDR
-So it didn't work, not because of my commands. My AD is broken or I don't what is wrong. But these commands work, I checked the writeups to be sure and this is what they did.
+> **warning** Warning
+> So it didn't work, not because of my commands. My AD is broken or I don't what is wrong. But these commands work, I checked the writeups to be sure and this is what they did.
+
   ![[images/2026-10-09_14-46-29.png]]
+  
