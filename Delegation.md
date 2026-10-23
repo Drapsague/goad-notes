@@ -73,7 +73,8 @@ So we want to ask the KDC for a ST as the local admin of the machine and then us
   ![[images/2026-10-08_15-11-43.png]]
 We can see that the user of the `WINTERFELL` machine is `WINTERFELL$` so this is the account we want to take over. And we are using the `CIFS/winterfell` SPN to do it.
   ![[images/2026-10-08_17-02-37.png]]
-
+> **note** Note
+> Maybe need to explain what are CIFS, LDAP, HOST...
 ```bash
   # With the altservice, so we can change the rights access of the ST from CIFS to HOST. 
   impacket-getST -spn CIFS/winterfell.north.sevenkingdoms.local \
@@ -125,5 +126,4 @@ Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST
 > So it didn't work, not because of my commands. My AD is broken or I don't know what is wrong. But these commands work, I checked the writeups to be sure and this is what they did.
 
 ![[images/2026-10-09_14-46-29.png]]
-
 I gave up.
