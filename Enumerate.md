@@ -1,4 +1,3 @@
 We are going to do AS-REP roasting.
 
-Test the auto sync to github.
-Second test to the auto sync
+Just testing the fetching feature of my script.
