@@ -119,7 +119,7 @@ Ok so we can use the `CIFS/winterfell.north.sevenkingdoms.local` to request a ST
 
 # TLDR
 > **warning** Warning
-> So it didn't work, not because of my commands. My AD is broken or I don't what is wrong. But these commands work, I checked the writeups to be sure and this is what they did.
+> So it didn't work, not because of my commands. My AD is broken or I don't know what is wrong. But these commands work, I checked the writeups to be sure and this is what they did.
 
 ![[images/2026-10-09_14-46-29.png]]
 
