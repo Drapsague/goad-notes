@@ -1,4 +1,6 @@
-AD-notes
+# AD-notes
+
+> 📖 **Reading on GitHub?** The notes are auto-rendered for GitHub on the [`github` branch](https://github.com/Drapsague/goad-notes/tree/github) (GitHub alerts, embedded screenshots). The `main` branch is the pristine SilverBullet source.
 
 Personal notes and writeups from working through **GOAD (Game of Active Directory)**, the vulnerable Active Directory lab by [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/GOAD).
 
