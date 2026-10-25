@@ -20,3 +20,4 @@ Ok so with --lsa nothing is flagged and we successfully dumped the lsa secrets. 
 
 ## Why ?
 
+If we look at the netexec code for `--lsa` and `-M lsassy` it is two different implementation. They don't do the same thing. `--lsa` uses 
