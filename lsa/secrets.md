@@ -9,5 +9,9 @@
 ```
 
 Let's try this on the GOAD and see the results.
+  ![[images/2026-10-25_11-25-23.png]]
+   ![[images/2026-10-25_11-24-59.png]]
+So the command is getting flagged by Windows Defender. But why ?
 
- 
+Let's see if there is any difference with --lsa.
+
