@@ -27,3 +27,5 @@ If we look at the netexec code for `--lsa` and `-M lsassy` it is two different i
  
 ![[images/2026-10-25_14-14-16.png]]
 I'm going to explain the difference here. For now I have a pptx but it is not suitable for the note taking style.
+
+--lsa is about retrieving the secrets from `HKLM/SECURITY` while `-M lsassy` is about dumping the `lsass.exe` process memory. 
