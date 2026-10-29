@@ -31,5 +31,5 @@ Here we see that every machine are vulnerable. We can also generate a list with 
 ![[images/2026-10-23_17-27-31.png]]
 So here are the machines against we are going to test the attack.
 
-I tried running responder to see if there bots configured to missmatch an smb share and trigger 
+I tried running responder to see if there bots configured to missmatch an smb share. But nothing happened. So we need a way to force a client into sending false SMB share request.
 
