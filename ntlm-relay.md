@@ -4,7 +4,7 @@
 > Don't worry I will explain in details what is NTLM Relay attack
 
 
-
+There are many different NTLM relay attacks, we are going to focus on the most basic one. So If a user search for an SMB share that does not exist, the machine is going to ask the DNS for the machine IP, but as it doest exist the DNS does not know the answer. So it passes it to the LLMR protocol, which will broadcast a message like "Who is ..." with the NTLM challenge to authenticate. We can then relay the challenge and send it to another machine. At least in theory.
 
 ## How to identify candidates machine for the attack
 
