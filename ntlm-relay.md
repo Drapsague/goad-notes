@@ -19,9 +19,15 @@ In order to authenticate, each part is calculating the session key with the chal
 
 So we want to be in the server shoes to get the response of the victim. But we also want to be in the client shoes to get the challenge from the target server. We then proxy the challenge to the victim and get the response. And boom we are in the session (TCP session), so the client thinks we are a legitimate server and the server thinks we are the client. We can now send any request over the protocol we used as the user we trapped.
 
-## How to identify candidates machine for the attack
+  ![[images/2026-10-29_17-47-46.png]]
 
+> **warning** Warning
+> If the `signing:True` appears we cannot use this attack. With the signing enabled, the packets in the session are signed with the session key the attacker doesn't have. So the session is successfully created but shutdown immediately because the packets are not signed.
+ 
+## How to identify candidates machine for the attack
   ![[images/2026-10-23_17-26-55.png]]
+Here we see that every machine are vulnerable. We can also generate a list with nxc.
+
 ![[images/2026-10-23_17-27-31.png]]
 So here are the machines against we are going to test the attack.
 
