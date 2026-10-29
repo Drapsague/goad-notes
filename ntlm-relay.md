@@ -17,9 +17,7 @@ In order to authenticate, each part is calculating the session key with the chal
 
 ## The attack
 
-So we want to be in the server shoes to get the response of our challenge from the victim. So we can answer a client call to some SMB share for instance and then send the challenge. Then we  
-
-
+So we want to be in the server shoes to get the response of the victim. But we also want to be in the client shoes to get the challenge from the target server. We then proxy the challenge to the victim and get the response. And boom we are in the session (TCP session), so the client thinks we are a legitimate server and the server thinks we are the client. We can now send any request over the protocol we used as the user we trapped.
 
 ## How to identify candidates machine for the attack
 
