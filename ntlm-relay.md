@@ -33,3 +33,10 @@ So here are the machines against we are going to test the attack.
 
 I tried running responder to see if there bots configured to missmatch an smb share. But nothing happened. So we need a way to force a client into sending false SMB share request.
 
+To force a client into sending an SMB share request to us we can perform a Coercion Attack.
+First we need to identify who is vulnerable to it. Then choose how we want to do the attack.
+
+## What is a Coercion Attack ?
+
+I will explain.
+
