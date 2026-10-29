@@ -10,8 +10,15 @@ To perform the attack we need to understand how the authentication works
   ![[images/2026-10-29_16-57-15.png]]
 So the client ask the server for info about its version over SMB for instance, if it's signed or which hashing algorithm it uses (e.g NTLMv1, NTLMv2). The picture you see above describe the `NTLM Handshake` and can be used over SMB, HTTP, LDAP, RPC and more. 
 
+In order to authenticate, each part is calculating the session key with the challenge, the NTHash of the client and the combination of both. Then, the client sends the response to the server to prove its identity. A part from the challenge and the response nothing else is sent over the network. 
+
 > **note** Note
-> The response is calculated from 
+> How does the server compute the session key without the NTHash of the client ? It sends the challenge and the client response to the DC and the DC verifies the proof and then sends back the session key.
+
+## The attack
+
+So we want to 
+
 
 
 ## How to identify candidates machine for the attack
