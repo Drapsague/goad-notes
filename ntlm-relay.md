@@ -6,7 +6,6 @@
 ## How to identify candidates machine for the attack
   ![[images/2026-10-23_17-26-55.png]]
 ![[images/2026-10-23_17-27-31.png]]
-
 So here are the machines against we are going to test the attack.
 
 
