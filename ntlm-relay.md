@@ -13,7 +13,7 @@ So the client ask the server for info about its version over SMB for instance, i
 In order to authenticate, each part is calculating the session key with the challenge, the NTHash of the client and the combination of both. Then, the client sends the response to the server to prove its identity. A part from the challenge and the response nothing else is sent over the network. 
 
 > **note** Note
-> How does the server compute the session key without the NTHash of the client ? It sends the challenge and the client response to the DC and the DC verifies the proof and then sends back the session key.
+> How does the server compute the session key without the NTHash of the client ? It sends the challenge and the client response to the DC and the DC verifies the proof and then sends back the session key. But only to the target server not the attacker.
 
 ## The attack
 
