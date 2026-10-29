@@ -17,7 +17,7 @@ In order to authenticate, each part is calculating the session key with the chal
 
 ## The attack
 
-So we want to be in the server shoes to get the response of our challenge from the victim. So we can answer a client call to some SMB share for instance and then send the challenge. Then we 
+So we want to be in the server shoes to get the response of our challenge from the victim. So we can answer a client call to some SMB share for instance and then send the challenge. Then we  
 
 
 
