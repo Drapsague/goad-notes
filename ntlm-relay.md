@@ -8,7 +8,7 @@ There are many different NTLM relay attacks, we are going to focus on the most b
 
 To perform the attack we need to understand how the authentication works
   ![[images/2026-10-29_16-57-15.png]]
-
+So the client ask the server for 
 
 
 ## How to identify candidates machine for the attack
