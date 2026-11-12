@@ -29,7 +29,7 @@ I tried LDAP enumeration with the `jeor.mormont` account, we get a lot of stuff.
 > **note** Note
 > Nothing more was found in the LDAP dictionnary.
 
-We can also try kerberoasting on `samwell.tarly` or `jeor.mormont` account. We get the same result from both.
+We can also try kerberoasting on `samwell.tarly` or `jeor.mormont` account. We get the same result for both.
 
 > **note** Note
 > Need to detail what is the kerberoasting attack and why we can do it in the first place. Then explain what are those hashes we get.
