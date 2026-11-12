@@ -38,6 +38,3 @@ First we need to identify who is vulnerable to it. Then choose how we want to do
 
 ## What is a Coercion Attack ?
 
-I will explain.
-
-do
