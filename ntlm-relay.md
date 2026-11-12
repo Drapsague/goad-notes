@@ -38,3 +38,4 @@ First we need to identify who is vulnerable to it. Then choose how we want to do
 
 ## What is a Coercion Attack ?
 
+It has something to do with RPC calls.
