@@ -1,2 +1,3 @@
 
-So we have `jeor.mormont` credentials. Let's enumerate the shares on differentes machines.
+So we have `jeor.mormont` credentials. Let's enumerate  shares on differents machines.
+
