@@ -7,5 +7,10 @@ Ok so we can use evil-winrm to have a shell but I think dumping LSA secrets, SAM
   ![[images/2026-11-12_17-48-35.png]]
 Let's go ! Now we can do a lot of things. First with the SAM db we see the NT Hash of the Administrator account so we can now authenticate as the Administrator to most things in the machine.
   ![[images/2026-11-12_17-50-11.png]]
-So we are now Admin on the `CASTLEBLACK` machine which is a DC. Let's dump ldap and go 
+So we are now Admin on the `CASTLEBLACK` machine which is a DC. Let's dump ldap and import everything in BloodHound.
+
+
+
+
+
   
