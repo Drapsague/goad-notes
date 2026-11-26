@@ -9,6 +9,7 @@ Let's go ! Now we can do a lot of things. First with the SAM db we see the NT Ha
   ![[images/2026-11-12_17-50-11.png]]
 So we are now Admin on the `CASTLEBLACK` machine which is not a DC. Let's dump ldap and import everything in BloodHound.
 
+So looking back at the nmap scan of the `CASTLEBLACK` machine, there are no LDAP service running, so no dump LDAP. I think we need to check what are the relations between our machine and the DC. 
 
 
 
